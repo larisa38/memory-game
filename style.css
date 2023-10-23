@@ -1,0 +1,29 @@
+body {
+  background-color:  #7dfac6;
+}
+
+.card_item {
+  width: 200px;
+  font-size: 100px;
+  height: 200px;
+  text-align: center;
+  background-color: blue;
+  margin: 20px;
+}
+
+.card.open {
+  background-color: green;
+  color: black;
+}
+
+.card.success {
+  background-color: greenyellow;
+  color: black;
+  border: 3px solid darkgreen;
+}
+
+#play_again {
+  max-width: 200px;
+}
+
+

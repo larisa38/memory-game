@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра в пары</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="game__title text-center">Найди пару</h1>
+    <div class="row">
+      <div class="col text-center">
+        <h5 id="choose">Выберите режим игры:</h5>
+        <button class="btn btn-primary" aria-disabled="true" id="one" hidden="true">Цифры</button>
+        <button class="btn btn-primary" aria-disabled="true" id="two" hidden="true">Изображения</button>
+      </div>
+    </div>
+    <div class="col text-center">
+      <button type="button" class="btn btn-primary" id="play_again" hidden="true">
+        Сыграть еще раз
+      </button>
+    </div>
+    
+    <div class="row" id="game_container"></div>
+  </div>
+  <script defer type="module" src="main.js"></script>
+</body>
+
+</html>
